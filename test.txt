@@ -1,0 +1,16 @@
+def search_helper():
+    global var
+    location.keys()
+    bounding_box = location["extent"]
+    bounding_geo = list(bounding_box.values())
+    var = [54.3100, 24.2800, 54.7300, 24.5500]
+    
+    global var_set
+    var_set = tuple(var)
+    
+    global layer_search
+    layer_search = input("What agol layer are you interested in?  ")
+    
+    return layer_search
+
+search_helper()
